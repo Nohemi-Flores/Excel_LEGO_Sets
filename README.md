@@ -29,10 +29,74 @@ The Excel dashboard involves users by providing a price slicer and a decades sli
 
   **4. PivotTables**
 
+  **5. PivotCharts**
+
 ---
+
+**📊 Analysis**
+
+
 
 **This analysis set out to answer 2 questions. The questions covered pieces counts and decades:**
 
 **1. What are the top five LEGO sets each decade? And what are the US retail prices of these sets?**
 
-  
+---
+
+## Dashboard
+
+This dashboard was created to help LEGO collectors or anyone learn about sets from 1970 to 2022! 
+
+[Check out the dashboard!](Project_1_Salary_Dashboard.xlsx)
+
+![Salary Dashboard](https://github.com/user-attachments/assets/c15b887e-6a3c-43ed-b70c-e9babfe287a3)
+
+### Introduction
+The data used in this dashboard includes information on LEGO sets, US retail prices, pieces counts, and release years.
+
+### Excel Skills Used
+- 📊 Charts
+- <> Formulas and Functions
+- 💪Power Query
+
+### Data Jobs Dataset 
+The dataset involves real-world data from 1970 to 2022. Dataset includes:
+- 📇 Set Names
+- 🆔 Set IDs
+- 🧱 Pieces
+- 🎉 Release Years
+
+### Dashboard Build
+📈 **PivotCharts**
+
+📊 **LEGO Set Name and ID - Bar Chart**
+![chart](https://github.com/user-attachments/assets/3358a899-dbb1-453f-ba99-f674ee77471c)
+
+- **Vertical bar chart was chosen. Data is presented according to the descending order of the piece count of the sets**
+- **Set names and IDs are in the horizontal axis**
+
+🌎 **US Retail Price - Bar Chart**
+
+![map](https://github.com/user-attachments/assets/588e6300-63fe-491d-bcc6-b6805b43ab22)
+
+- **Vertical bar chart was chosen. Data is presented according to the descending order of the piece count of the sets**
+- **Set IDs and year released are in the horizontal axis**
+
+ **Also, *slicers* was added to help users navigate the dashboard.**
+
+ 
+🧮 **Formulas and Functions**
+
+- **Years were placed into their decades with the use of =FLOOR(), as stated above.**
+
+     =FLOOR([@year],10) & "s"
+
+- **US Retail Prices were placed in "buckets" using the formula demonstrated above. Sets with no price available in the US retail price column were labeled with "No Price Available" under that column. *Note*, Power Query was used to "bucket" prices.**
+
+🔍 **Power Query (ETL)**
+
+**The Price column was created using Power Query. After the column was created, the data was loaded back to a worksheet. Once in a worksheet, the decades column was created using the formula mentioned above.**
+
+
+## Conclusion
+ By exploring the data on LEGO sets released from 1970 to 2022, users can find out more about the top sets in each decade. But if patterns in themes or number of minifugres included in sets is what a user wants, they have to [check out my SQL project on that](https://github.com/Nohemi-Flores/SQL_LEGO_Sets_Project)!
