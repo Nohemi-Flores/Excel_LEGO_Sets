@@ -47,9 +47,9 @@ The Excel dashboard involves users by providing a price slicer and a decades sli
 
 This dashboard was created to help LEGO collectors or anyone learn about sets from 1970 to 2022! 
 
-[Check out the dashboard!](Project_1_Salary_Dashboard.xlsx)
+[Check out the dashboard!](LS_Images/lego_sets.xlsx)
 
-![Salary Dashboard](https://github.com/user-attachments/assets/c15b887e-6a3c-43ed-b70c-e9babfe287a3)
+![Salary Dashboard](LS_Images/Dashboard.png)
 
 ### Introduction
 The data used in this dashboard includes information on LEGO sets, US retail prices, pieces counts, and release years.
@@ -70,21 +70,21 @@ The dataset involves real-world data from 1970 to 2022. Dataset includes:
 📈 **PivotCharts**
 
 📊 **LEGO Set Name and ID - Bar Chart**
-![chart](https://github.com/user-attachments/assets/3358a899-dbb1-453f-ba99-f674ee77471c)
+![chart](LS_Images/Chart_ID.png)
 
 - **Vertical bar chart was chosen. Data is presented according to the descending order of the piece count of the sets**
 - **Set names and IDs are in the horizontal axis**
 
 🌎 **US Retail Price - Bar Chart**
 
-![map](https://github.com/user-attachments/assets/588e6300-63fe-491d-bcc6-b6805b43ab22)
+![chart](LS_Images/Chart_P.png)
 
 - **Vertical bar chart was chosen. Data is presented according to the descending order of the piece count of the sets**
 - **Set IDs and year released are in the horizontal axis**
 
  **Also, *slicers* was added to help users navigate the dashboard.**
 
- 
+ ![slicer](LS_Images/Slicers.png)
 🧮 **Formulas and Functions**
 
 - **Years were placed into their decades with the use of =FLOOR(), as stated above.**
